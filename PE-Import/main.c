@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 	
 	FILE *pe1;
 	
-	pe1 = fopen("/PE1.txt", "a+");
+	pe1 = fopen("/PE-1.txt", "a+");
 	
 	while (fgets(currLine, bufferSize, pe1) != NULL) {
         printf("%s\n", currLine);
